@@ -8,6 +8,8 @@ git diff
 git restore "filename.txt"
 git commit -m 'initiate'
 git remote add origin https://github.com/truptichalke/testdemo.git   ----// to connect local folder to GITHUB
+git restore --staged "filename.txt" // to unstage and then restore file again before git push
+git restore "filename.txt"
 git push --set-upstream origin master  -----// to GITHUB set main branch as master
 git push
 
